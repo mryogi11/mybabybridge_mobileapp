@@ -10,7 +10,7 @@ This project delivers a native-like mobile app experience for the existing BabyB
 
 1. Install Flutter 3.0+ and dependencies.
 2. Run `flutter pub get` to install packages.
-3. Run the app with `flutter run`.
+3. Run app with `flutter run`.
 
 ## Features
 - WebView integration
