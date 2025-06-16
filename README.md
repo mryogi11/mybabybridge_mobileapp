@@ -1,4 +1,4 @@
-# BabyBridge Mobile Wrapper
+# BabyBridge Mobile App Project
 
 This project delivers a native-like mobile app experience for the existing BabyBridge web app using Flutter.
 
