@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'offline_screen.dart';
-import 'webview_screen.dart';
-import 'platform_navigation.dart';
+import 'package:my_baby_bridge_mobile_app/splash_screen.dart';
+import 'package:my_baby_bridge_mobile_app/webview_screen.dart';
+import 'package:my_baby_bridge_mobile_app/offline_screen.dart';
+import 'package:my_baby_bridge_mobile_app/platform_navigation.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -9,16 +10,16 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'BabyBridge Mobile Wrapper',
+      title: 'MyBabyBridge',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(),
+      home: const SplashScreen(),
     );
   }
 }
